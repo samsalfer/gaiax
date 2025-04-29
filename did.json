@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:samsalfer:gaiax:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:samsalfer:gaiax:main#1",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "e": "AQAB",
+        "kid": "jN7jtCKZzTxgh2mHru8ztwpzmIQGIX6soOyIsHEEfb0",
+        "kty": "RSA",
+        "n": "zG6cLeoRyBR9NnlmZL5eg7RqzMZ4rjg0X6xSt4fH0oPyZcM5thxrnbKxxYO4OPkpKZM1zCxUsH2GlLjcjMNur9K0UFBSomr5FHHjqC49APYVjnKMJsIT_IgJvJjr78i6gQG2EUEGv-9q8KSdOZ5p-JJgKcXsq3QVqmrWN8YxS_4NFZdhAbOrPyDayX0-iuZKneuuHYjPt5DBvkXtWPi_gXVB_fCTLylnpkTUTnQRMD1WZbvEKIvAAFeBKqrHL97dJBGu2GuEeYWPLbyMqWTLk8S1NnFgRsisS5G0TMl-rJ6AyNhKVZXM1Cn-yBaY29J1UspG-zsxrAjvet7IY-rzew",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/samsalfer/gaiax/main/public_key.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:samsalfer:gaiax:main#1"
+  ]
+}
